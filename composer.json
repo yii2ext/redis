@@ -1,0 +1,35 @@
+{
+	"name": "yii2ext/redis",
+	"description": "Yii2 wrappers for different data types in redis",
+	"keywords": ["yii", "framework", "redis"],
+	"homepage": "https://github.com/yii2ext/redis",
+	"type": "library",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Charles Pick",
+			"email": "charles.pick@gmail.com",
+			"homepage": "https://github.com/phpnode",
+			"role": "Base version developer"
+		},
+		{
+			"name": "Alex Zet",
+			"email": "zetdev@gmail.com",
+			"homepage": "https://github.com/alexzv",
+			"role": "Core extension development"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/yii2ext/redis/issues?state=open",
+		"wiki": "https://github.com/yii2ext/redis/wiki",
+		"source": "https://github.com/yii2ext/redis"
+	},
+	"require": {
+		"php": ">=5.3.7",
+		"phpredis": "*",
+		"yiisoft/yii2": "dev-master"
+	},
+	"autoload": {
+		"psr-0": { "yii2ext\\redis": "" }
+	}
+}
