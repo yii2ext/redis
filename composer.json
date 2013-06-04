@@ -1,7 +1,7 @@
 {
 	"name": "yii2ext/redis",
 	"description": "Yii2 wrappers for different data types in redis",
-	"keywords": ["yii", "framework", "redis"],
+	"keywords": ["yii", "yii2", "framework", "redis"],
 	"homepage": "https://github.com/yii2ext/redis",
 	"type": "library",
 	"license": "BSD-3-Clause",
@@ -26,9 +26,11 @@
 	},
 	"require": {
 		"php": ">=5.3.7",
-		"ext-phpredis": "*",
 		"yiisoft/yii2": "dev-master"
 	},
+    "suggest": {
+        "ext-phpredis": "Redis C extension for PHP"
+    },
 	"autoload": {
 		"psr-0": { "yii2ext\\redis": "" }
 	}
