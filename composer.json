@@ -33,6 +33,6 @@
         "ext-phpredis": "Redis C extension for PHP"
     },
 	"autoload": {
-		"psr-0": { "yii2ext\\redis": "./src/" }
+		"psr-0": { "yii2ext\\redis\\": "./src" }
 	}
 }
