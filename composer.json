@@ -26,12 +26,13 @@
 	},
 	"require": {
 		"php": ">=5.3.7",
-		"yiisoft/yii2": "dev-master"
+		"yiisoft/yii2": "dev-master",
+		"yiisoft/yii2-composer": "dev-master"
 	},
     "suggest": {
         "ext-phpredis": "Redis C extension for PHP"
     },
 	"autoload": {
-		"psr-0": { "yii2ext\\redis": "" }
+		"psr-0": { "yii2ext\\redis": "./src/" }
 	}
 }
